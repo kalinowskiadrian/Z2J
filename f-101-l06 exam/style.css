@@ -1,0 +1,50 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  background: #5e5a5a;
+}
+
+.header-primary {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 25px;
+}
+
+.menu {
+  background: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 250px;
+  padding: 5px;
+}
+
+a:hover {
+  color: rgb(255, 47, 203);
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  color: black;
+  background: rgb(48, 190, 247);
+  font-size: 20px;
+  height: 120px;
+  padding: 5px;
+  margin-top: 0;
+}
+
+footer {
+  background: rgb(247, 168, 22);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 0;
+}
+
+main ~ footer {
+  background-color: rgb(21, 255, 0);
+}
