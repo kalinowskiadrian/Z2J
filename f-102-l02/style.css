@@ -1,0 +1,22 @@
+body {
+  background: greenyellow;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.frame {
+  border: 0.5rem solid red;
+  background-color: rgb(245, 185, 245);
+  margin: 0.3rem;
+  padding: 1.2rem;
+}
